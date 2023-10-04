@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #1F1C18;
+  color: white;
+}
+
+section {
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+form {
+  border: 1px solid lightgray;
+  padding: 3.5%;
+  border-radius: 1rem;
+}
+
+.survey-form-title {
+  margin-bottom: 2.5%;
+  text-align: center;
+  color: yellow;
+}
+
+.survey-form-title:hover {
+    text-decoration: underline;
+    color: lightsalmon;
+}
+
+fieldset {
+  padding: 1rem;
+  margin-bottom: 2.5%;
+  border-bottom-right-radius: 9px;
+}
+
+legend {
+  color: goldenrod;
+  font-size: larger;
+}
+
+legend:hover {
+    color: #FFD194;
+}
+
+.sub-container {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.sub-container label {
+  margin-right: 2%;
+}
+
+input {
+  padding: 3px 5px;
+  font-weight: 500;
+  width: 30.8%;
+  border-radius: 5px;
+  outline: none;
+}
+
+.other-details p {
+  margin-top: 2.5%;
+}
+
+.other-details input {
+  width: 5%;
+  margin-top: 0.5rem;
+}
+
+.recommending-container {
+  margin-top: 2.5%;
+}
+
+.recommending-container select {
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+
+.raffle-container,
+.comments {
+  margin-top: 2.5%;
+}
+
+.raffle-container input {
+  width: 36%;
+  padding: 3px 5px;
+  font-weight: 500;
+  border-radius: 5px;
+  outline: none;
+}
+
+textarea {
+    padding: 4px 8px;
+}
+
+.action {
+  text-align: center;
+}
+
+.action button {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 18%;
+  padding: 4px 6px;
+  border-bottom-right-radius: 7px;
+  border-top-left-radius: 4px;
+  background-color: darkred;
+  color: wheat;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+}
+
+.cancel-btn:hover, .submit-btn:hover {
+  background-color: white;
+  color: darkred;
+}
